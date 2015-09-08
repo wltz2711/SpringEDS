@@ -1,0 +1,619 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>SPRING EDS Scholarship</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet" type="text/css">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="stylesheet" href="styles/vendor.9c307a9d.css">
+  <link rel="stylesheet" href="styles/main.1c747b42.css">
+
+  <body ng-app="dateeasy2App" data-spy="scroll" ng-controller="MainCtrl" scroll-spy style="display: none">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+    <!-- ******HEADER****** -->
+    <header id="top" class="header navbar-fixed-top">
+      <div class="container">
+        <h1 class="logo pull-left">
+          <a class="scrollto" href="#promo">
+            <img id="logo-image" class="logo-image" src="images/logo/SPRING.png" alt="Logo">
+            <!--<span class="logo-title">Delta</span>-->
+          </a>
+        </h1>
+        <!--//logo-->
+        <div class="pull-right" ng-if="profile">
+          <div class="pull-left">
+            <img style="border-radius: 100px" src="//graph.facebook.com/{{profile.facebook.id}}/picture"> </div>
+          <div class="pull-right" style="margin: 5px 0px 0px 8px; height: 41px"> Welcome
+            <br>
+            <strong>{{profile.facebook.displayName}}</strong>
+          </div>
+        </div>
+        <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--//nav-toggle-->
+          </div>
+          <!--//navbar-header-->
+          <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+              <li ng-click="updateCount('about')" class="nav-item"><a class="scrollto" href="#about">About SPRING</a></li>
+              <li ng-click="updateCount('eds')" class="nav-item"><a class="scrollto" href="#eds">About EDS</a></li>
+              <li ng-click="updateCount('sponsor')" class="nav-item"><a class="scrollto" href="#sponsor">Sponsorship Details</a></li>
+              <li ng-click="updateCount('story')" class="nav-item"><a class="scrollto" href="#story">Story</a></li>
+              <li ng-click="updateCount('pricing')" class="nav-item"><a class="scrollto" href="#pricing">Pricing</a></li>
+              <li ng-click="updateCount('contact')" class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <!--//nav-->
+          </div>
+          <!--//navabr-collapse-->
+        </nav>
+        <!--//main-nav-->
+      </div>
+    </header>
+    <!--//header-->
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+      <div class="overlay"></div>
+      <div class="container">
+		<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=6wKr1YeyDTk',containment:'#promo',autoPlay:true, mute:true, startAt:0, showYTLogo:false, showControls:false, opacity:1}">My video</a>
+        <div class="row">
+          <div class="overview col-md-12 col-sm-12 col-xs-12" style="padding-top:25px">
+  		<h1 class="title"><strong>SPRING Executive Development Scholarship</strong></h1>
+	            <h2 class="summary"><center>Growing Businesses, Developing People</center></h2>
+          </div>
+          <!--//overview-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//promo-->
+    <section id="about" class="features section has-pattern">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="title">About SPRING</h2>
+          <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+            <p>SPRING Singapore is an agency under the Ministry of Trade and Industry responsible for helping Singapore enterprises grow and building trust in Singapore products and services. As the enterprise development agency, SPRING works with partners to help enterprises in financing, capability and management development, technology and innovation, and access to markets. As the national standards and accreditation body, SPRING develops and promotes an internationally-recognised standards and quality assurance infrastructure. SPRING also oversees the safety of general consumer goods in Singapore.</p>
+          </div>
+        </div>
+        <!--//row-->
+        
+      </div>
+      <!--//container-->
+    </section>
+        <section id="eds" class="contact section has-pattern">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="title">About Executive Development Scholarship</h2>
+          <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+            <p>Looking for a scholarship which offers you not just a job in future, but a meaningful footstep in the business world?</p> 
+
+			<p>The Executive Development Scholarship (EDS) by SPRING is your choice. </p>
+
+			<p>If you are dynamic and keen to help leading local enterprises/SMEs shape their success story, or interested in an enterprise development career in SPRING, YOU might be the one we are looking for! </p>
+
+			<p>With multiple career paths to look forward to, our local scholarship opportunity offers you exciting and fulfilling careers in high-growth local enterprises or in SPRING. Through our EDS, we bring aspiring and enterprising individuals, a step closer to unleash your potential as a future business leader.</p>
+          </div>
+        </div>
+        <!--//row-->
+        
+      </div>
+      <!--//container-->
+    </section>
+    <!-- ******FEATURES****** -->
+    <section id="sponsor" class="features section">
+      <div class="container">
+        <div class="row" style="padding-top:10px">
+          <h2 class="title row text-center" style="padding-bottom:35px">Sponsorship Details</h2>
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-usd"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Up to four years of full tuition and compulsory fees</h3>             
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-cog"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Annual Maintenance Allowance</h3>             
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-book"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Annual Book Allowance</h3>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-home"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Hostel Fee Subsidy</h3>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+        </div>
+        <!--//row-->
+        <div class="row feature-row-last">
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-laptop"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">One-Time Computer Allowance</h3>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-plane"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Support for Overseas Exchange Programme</h3>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//item-->
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-briefcase"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">Compulsory Internship Opportunity</h3>
+            </div>
+
+            <!--//content-->
+          </div>
+          <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="icon" icons-animate> <i class="fa fa-building"></i> </div>
+            <!--//icon-->
+            <div class="content">
+              <h3 class="title">2 Years bond regardless of sponsored study</h3>
+            </div>
+          <!--//item-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//features-->
+    <!-- ******HOW****** -->
+    <section id="how" class="how section has-pattern">
+      <div class="container">
+        <div class="row">
+          <!--<div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center">-->
+          <div class="content col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2 class="title">How it works</h2>
+            <ul class="how_its_work_ul">
+              <li>
+                <div class="icon animated fadeInUp delayp1" icons-animate="" style="opacity: 0"> <i class="fa fa-calendar"></i> </div>
+                <div class="text_box left_text_box">
+                  <div class="text_area">
+                    <span>Selecting occassion</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="icon animated fadeInUp delayp1" icons-animate="" style="opacity: 0"> <i class="fa fa-dollar"></i> </div>
+                <div class="text_box right_text_box">
+                  <div class="text_area">
+                    <span>Select your budget and preference</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="icon animated fadeInUp delayp1" icons-animate="" style="opacity: 0"> <i class="fa fa-plus"></i> </div>
+                <div class="text_box left_text_box">
+                  <div class="text_area">
+                    <span>Select any add ons</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="icon animated fadeInUp delayp1" icons-animate="" style="opacity: 0"> <i class="fa fa-heart"></i> </div>
+                <div class="text_box right_text_box">
+                  <div class="text_area">
+                    <span>And dateasy will take care of the rest! </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--//content-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//how-->
+    <!-- ******FAQ****** -->
+    <section id="faq" class="faq section">
+      <div class="container">
+        <div class="row">
+          <h2 class="title text-center">Frequently Asked Questions</h2>
+          <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+            <div class="item">
+              <h3 class="question"><i class="fa fa-question-circle"></i>What is a Coordinated Date?</h3>
+              <p class="answer">It is a date where all reservations and bookings are done by the apps. All you have to do is show the relevant booking details to the relevant service staff and they will do the necessary.</p>
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="question"><i class="fa fa-question-circle"></i>How long does it take for one Coordinated Date to be confirmed?</h3>
+              <p class="answer">It will usually be done within an hour for the team to make the necessary arrangements. In the event that more time is needed to complete the preparation process, you will be notified. You can be assured that all preparations will be done ahead of the date.</p>
+            </div>
+          </div>
+          <!--//faq-col-->
+          <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+	  <!--//item-->
+            <div class="item">
+              <h3 class="question"><i class="fa fa-question-circle"></i>What if there is a change of plan?</h3>
+              <p class="answer">In the event of a change in plan, do kindly call the concierge so that we can make the necessary arrangements. Please do understand that as certain outlets do not allow refunds for booking/reservation cancellation, we will not be able to process refunds all the time.</p>
+            </div>
+           <!--//item-->
+            <div class="item">
+              <h3 class="question"><i class="fa fa-question-circle"></i>Are there any additional services?</h3>
+              <p class="answer">Yes there is. From surprises such as bouquet and chocolates deliveries to chauffeur services, you can be assured of an unforgettable dates. Note: Additional charges applies for these services and in the event of a cancellation, there will be no refunds.</p>
+            </div>
+          </div>
+          <!--//faq-col-->
+        </div>
+        <!--//row-->
+        <div class="more text-center">
+          <h4 class="title">More questions?</h4> <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch<i class="fa fa-arrow-circle-o-down"></i></a> </div>
+      </div>
+      <!--//container-->
+    </section>
+    <!--//faq-->
+    <!-- ******STORY****** -->
+    <section id="story" class="story section has-pattern">
+      <div class="container">
+        <div class="row">
+          <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
+            <h2 class="title">Story behind the app</h2>
+            <p>Jason, the founder always had trouble giving the ladies the perfect date and always ends up getting no second chances. He was down and sad, that's why the idea of DatEasy came. Jason brought in like-minded developers who shares the same goal… To never have a bad date again. DatEasy is here to ensure that you will never lose your dream partner because of a bad date.</p>
+          </div>
+          <!--//content-->
+          <div class="team col-md-6 col-sm-6 col-xs-12">
+            <div class="row">
+              <div class="member col-md-6 text-center" ng-if="false">
+                <img class="img-rounded" src="images/team/member-1.68ff0dce.png" alt="">
+                <p class="name">James Norton</p>
+                <p class="title">Lead Developer</p>
+                <ul class="connect list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="row-end"><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+              </div>
+              <!--//member-->
+              <div class="member member-1 col-sm-6 text-center">
+                <img class="img-rounded" src="images/team/ceo.69b00bdd.png" alt="">
+                <p class="name">Jason Koh</p>
+                <p class="title">CEO</p>
+                <ul class="connect list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="row-end"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+              </div>
+              <div class="member member-2 col-sm-6 text-center">
+                <img class="img-rounded" src="images/team/in-charge.d49d6d46.png" alt="">
+                <p class="name">Tan Kangwei</p>
+                <p class="title">In Charge of Development</p>
+                <ul class="connect list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="row-end"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+              </div>
+              <div class="member member-3 col-sm-6 text-center">
+                <img class="img-rounded" src="images/team/handle-all-the-account.166c7bff.png" alt="">
+                <p class="name">Hong Huimin</p>
+                <p class="title">Handle all the account</p>
+                <ul class="connect list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="row-end"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+              </div>
+              <div class="member member-4 col-sm-6 text-center">
+                <img class="img-rounded" src="images/team/designer.1a740494.png" alt="">
+                <p class="name">Sebastien Sim</p>
+                <p class="title">Lead UI / UX Designer</p>
+                <ul class="connect list-inline">
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="row-end"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+              </div>
+              <!--//member-->
+            </div>
+          </div>
+          <!--//team-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//story-->
+<!-- ******Pricing****** -->
+    <section id="pricing" class="pricing section has-pattern">
+      <div class="container">
+        <div class="price-cols row">
+          <h2 class="title text-center">Choose your plan today</h2>
+          <div class="items-wrapper col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
+            <div class="item price-1 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="item-inner">
+                <div class="heading">
+                  <h3 class="title">Date Newbie</h3>
+                  <p class="price-figure">
+                    <span class="price-figure-inner">
+                      <span class="currency">$</span>
+                      <span class="number">0</span>
+                      <br>
+                      <span class="unit">per month</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="content">
+                  <ul class="list-unstyled feature-list">
+                    <li><i class="fa fa-check"></i>Generate 2 Times Per Month</li>
+                    <li class="disabled"><i class="fa fa-times"></i>0 Coordinated Dates<p></li>
+                    <li class="disabled"><i class="fa fa-times"></i>Email support</li>
+                    <li class="disabled"><i class="fa fa-times"></i>24/7 support</li>
+                  </ul> <a class="btn btn-theme btn-block" href="#">Sign Up</a> </div>
+                <!--//content-->
+              </div>
+              <!--//item-inner-->
+            </div>
+            <!--//item-->
+            <div class="item price-2 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="item-inner">
+                <div class="heading">
+                  <h3 class="title">Date Pro</h3>
+                  <p class="price-figure">
+                    <span class="price-figure-inner">
+                      <span class="currency">$</span>
+                      <span class="number">19.99</span>
+                      <br>
+                      <span class="unit">per month</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="content">
+                  <ul class="list-unstyled feature-list">
+                    <li><i class="fa fa-check"></i>Generate 10 Times Per Month</li>
+                    <li><i class="fa fa-check"></i>1 Free Coordinated Date</li>
+                    <li><i class="fa fa-check"></i>Email support</li>
+                    <li><i class="fa fa-check"></i>24/7 support</li>
+                  </ul>
+                  <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" style="height: 33px">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="ZWETRK7ASNGPQ">
+                    <button class="btn btn-theme btn-block" type="submit" name="submit">Sign Up</button>
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1"> </form>
+                </div>
+                <!--//content-->
+              </div>
+              <!--//item-inner-->
+            </div>
+            <!--//item-->
+            <!--//item-->
+                        <!--//item-->
+            <div class="item price-3 col-md-3 col-sm-3 col-xs-12 text-center best-buy">
+              <div class="item-inner">
+                <div class="heading">
+                  <h3 class="title">Date Expert</h3>
+                  <p class="price-figure">
+                    <span class="price-figure-inner">
+                      <span class="currency">$</span>
+                      <span class="number">35.99</span>
+                      <br>
+                      <span class="unit">per month</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="content">
+                  <ul class="list-unstyled feature-list">
+                    <li><i class="fa fa-check"></i>Generate 10 Times Per Month</li>
+                    <li><i class="fa fa-check"></i>3 Coordinated Dates Per Month</li>
+                    <li><i class="fa fa-check"></i>Email priority support</li>
+                    <li><i class="fa fa-check"></i>24/7 support</li>
+                  </ul>
+                  <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" style="height: 33px">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="69ZC6VJGT3ZPE">
+                    <button class="btn btn-theme btn-block" type="submit" name="submit">Sign Up</button>
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1"> </form>
+                </div>
+                <!--//content-->
+                <div class="ribbon">
+                  <div class="text">Popular</div>
+                </div>
+                <!--//ribbon-->
+              </div>
+              <!--//item-inner-->
+            </div>
+            <div class="item price-4 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="item-inner">
+                <div class="heading">
+                  <h3 class="title">Date Guru</h3>
+                  <p class="price-figure">
+                    <span class="price-figure-inner">
+                      <span class="currency">$</span>
+                      <span class="number">55.99</span>
+                      <br>
+                      <span class="unit">per month</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="content">
+                  <ul class="list-unstyled feature-list">
+                    <li><i class="fa fa-check"></i>Generate 20 Times Per Month</li>
+                    <li><i class="fa fa-check"></i>8 Coordinated Dates Per Month</li>
+                    <li><i class="fa fa-check"></i>Email priority support</li>
+                    <li><i class="fa fa-check"></i>24/7 support</li>
+                  </ul>
+                  <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" style="height: 33px">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="U7PF45ZPLG4KU">
+                    <button class="btn btn-theme btn-block" type="submit" name="submit">Sign Up</button>
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1"> </form>
+                </div>
+                <!--//content-->
+              </div>
+              <!--//item-inner-->
+            </div>
+          </div>
+          <!--//items-wrapper-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//pricing-->
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="title">Contact US</h2>
+          <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+            <p>If you are interested in our app, do drop us your email so that we can notify you when the app is live.</p>
+            <ul class="list-unstyled contact-details">
+              <li><i class="fa fa-envelope"></i><a href="mailto:contact@dateasy.com">contact@dateasy.com</a></li>
+              <li><i class="fa fa-phone-square"></i>+65 9637 0022</li>
+            </ul>
+          </div>
+        </div>
+        <!--//row-->
+        <div class="row text-center">
+          <div class="contact-form col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+            <form class="form" name="form" ng-submit="addFeedback(form)" novalidate id="contact-form">
+              <!--
+              <div class="form-group name">
+                <label class="sr-only" for="name">Name</label>
+                <input id="name" type="text" ng-model="feedback.name" name="contactName" class="form-control" placeholder="Name:" required>
+                <p ng-show="form.contactName.$error.required && submitted">Please enter your name</p>
+              </div>&lt;!&ndash;//form-group&ndash;&gt;
+-->
+              <div class="form-group email">
+                <label class="sr-only" for="email">Email</label>
+                <input id="email" type="email" ng-model="feedback.email" name="email" class="form-control" placeholder="Email:" required> </div>
+              <!--//form-group-->
+              <p ng-show="form.email.$error.required && submitted">Please enter your E-Mail address</p>
+              <p class="error" ng-show="form.email.$error.email">Not valid email!</p>
+              <p ng-show="form.comments.$error.required && submitted">Please enter your feedback</p>
+              <p ng-if="showSuccess" class="alert alert-success">Successfully Submitted</p>
+              <button type="submit" class="btn btn-lg btn-theme">Send Email</button>
+            </form>
+            <!--//form-->
+          </div>
+          <!--//contact-form-->
+        </div>
+        <!--//row-->
+        <div class="text-center">
+          <ul class="social-icons list-inline" ng-controller="LoginCtrl">
+            <li><a href="#" ng-click="oauthLogin('facebook')"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+          <!--//social-icons-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//container-->
+    </section>
+    <!--//contact-->
+	<section id="refer" class="pricing section has-pattern">
+        <div class="text-center">
+		<h2 class="title">Explore Other Great Apps!</h2>
+		<h3>Click <a href="http://pictureful.herokuapp.com/">Here</a> to have a look at what our friends are up to!</h3>
+	</div>
+	</section>
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+    <!--//footer-->
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="feature-modal-1" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 id="featureModalLabel-1" class="modal-title text-center">App Feature and Benefit</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <figure class="figure col-md-6 col-sm-12 col-xs-12">
+                <img class="img-responsive img-rounded" src="images/features/feature-figure-1.40ae6691.png" alt="">
+                <figcaption class="caption">Figure caption goes here </figcaption>
+              </figure>
+              <div class="content col-md-6 col-sm-12 col-xs-12">
+                <p>You can use the modal to explain one of your app's features/benefits in details. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
+                <ul class="list-unstyled">
+                  <li><i class="fa fa-star"></i>Lorem ipsum dolor sit ame</li>
+                  <li><i class="fa fa-star"></i>Curabitur elit elit</li>
+                  <li><i class="fa fa-star"></i>Nunc tincidunt ipsum a risus</li>
+                </ul>
+                <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                <blockquote class="quote">
+                  <p><i class="fa fa-quote-left"></i>I love this magna pellentesque in magnis gravida sit augue felis vehicula vestibulum semper penatibus justo ornare semper Gravida felis platea arcu mus non. Montes at posuere. Natoque.</p>
+                  <p class="people">
+                    <span class="name">Adam Lee</span>
+                    <br>
+                    <span class="title">Developer, AppHunt</span>
+                  </p>
+                </blockquote>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//row-->
+          </div>
+          <!--//modal-body-->
+        </div>
+        <!--//modal-content-->
+      </div>
+      <!--//modal-dialog-->
+    </div>
+    <!--//modal-->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      ! function(A, n, g, u, l, a, r) {
+        A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+            (A[l].q = A[l].q || []).push(arguments)
+          }, A[l].l = +new Date, a = n.createElement(g),
+          r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+      }(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-60476073-3');
+      ga('send', 'pageview');
+    </script>
+    <!--[if lt IE 9]>
+    <script src="scripts/oldieshim.8907f769.js"></script>
+    <![endif]-->
+    <script src="scripts/vendor.75200232.js"></script>
+    <script src="scripts/scripts.59fd139f.js"></script>
+    <script src="scripts/jquery.mb.YTPlayer.js"></script>
